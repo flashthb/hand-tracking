@@ -18,7 +18,7 @@ def main():
         total_fingers = fingers.count(1)
 
         #Show the number of finers up with a contour
-        cv2.putText(frame, f"Fingers: {total_fingers}", (10, 70), cv2.FONT_HERSHEY_PLAIN, 3, (0, 0, 0), 6)
+        cv2.putText(frame, f"Fingers: {total_fingers}", (10, 70), cv2.FONT_HERSHEY_PLAIN, 3, (0, 255, 0), 6)
         cv2.putText(frame, f"Fingers: {total_fingers}", (10, 70), cv2.FONT_HERSHEY_PLAIN, 3, (255, 255, 255), 3)
 
         cv2.imshow("Fingers", frame)
